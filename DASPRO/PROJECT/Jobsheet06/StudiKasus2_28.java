@@ -30,6 +30,16 @@ public class StudiKasus2_28 {
                 System.out.println("Tidak memperoleh dana penghargaan (PKM tidak lolos pendanaan)");
             }
 
+        } else {
+            System.out.print("Peringkat juara: ");
+            peringkatJuara = input.nextInt();
+            
+            if (peringkatJuara == 0) {
+                System.out.println("Tidak memperoleh dana penghargaan (hanya untuk juara 1/2/3).");
+            } else {
+                System.out.println("Berhak memperoleh dana penghargaan (mendapat juara 1/2/3). ");
+            }
+
         }
     }
 }
